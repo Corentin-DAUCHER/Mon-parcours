@@ -1,0 +1,48 @@
+@import "./base/all";
+
+@import "./base/h";
+
+@import "./utils/variables";
+
+@import "./utils/keyframes";
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: $light_bg_color;
+
+    .go_up_button{
+        height: 80px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        border-radius: 50%;
+        background: $go_up_bg_color;
+
+        &:hover{
+            animation: scale 200ms 0ms linear both;
+            background: $lighten_bg_color;
+        }
+
+        a{
+
+            i{
+                height: 100%;
+                width: 100%;
+                font-size: 60px;
+                color: black;
+            }
+        }
+    }
+
+    @import "./layout/header";
+
+    @import "./pages/_index";
+
+    @import "./layout/footer";
+}

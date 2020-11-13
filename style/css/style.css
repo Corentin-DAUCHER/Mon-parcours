@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Shrikhand;
+  font-size: 40px;
+  color: black;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Dancing Script";
+  font-size: 30px;
+  color: black;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #e6e6e6;
+}
+body .go_up_button {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 50%;
+  background: linear-gradient(360deg, #dd1313 0%, #e6a409 100%);
+}
+body .go_up_button:hover {
+  animation: scale 200ms 0ms linear both;
+  background: linear-gradient(360deg, #f69393 0%, #fbda8d 100%);
+}
+body .go_up_button a i {
+  height: 100%;
+  width: 100%;
+  font-size: 60px;
+  color: black;
+}
+body header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0px;
+  background-color: white;
+}
+body header .title {
+  width: 100%;
+}
+body header .title h1 {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 15px 0px;
+  text-align: center;
+}
+body header .menu {
+  width: 100%;
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #323232;
+}
+body header .menu h1 {
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(360deg, #dd1313 0%, #e6a409 100%);
+}
+body header .menu h1:hover {
+  animation: scale 200ms 0ms linear both;
+  background: linear-gradient(360deg, #f69393 0%, #fbda8d 100%);
+}
+body .index_main {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0px auto;
+  position: relative;
+}
+body .index_main .projet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .index_main .projet .projet {
+  width: 60%;
+  margin: 0px auto;
+}
+body .index_main .projet .projet .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .index_main .projet .projet .container__title {
+  width: 100%;
+  padding: 15px 0px;
+}
+body .index_main .projet .projet .container__title h2 {
+  text-align: center;
+}
+body .index_main .projet .projet .container__title h3 {
+  text-align: center;
+}
+body .index_main .projet .projet .container__livrable {
+  width: 100%;
+}
+body .index_main .projet .projet .container__livrable .title {
+  width: 100%;
+  padding: 15px 0px;
+}
+body .index_main .projet .projet .container__livrable .title h3 {
+  text-align: center;
+}
+body .index_main .projet .projet .container__livrable .preview {
+  height: 400px;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 9px 0px #000000;
+}
+body .index_main .projet .projet .container__livrable .preview img {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+@media all and (max-width: 1200px) {
+  body .index_main .projet .projet .container__livrable .preview img {
+    object-fit: cover;
+  }
+}
+body .index_main .projet .projet .container__livrable .link h3 {
+  height: 100%;
+  width: 300px;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 30px;
+  background: linear-gradient(360deg, #dd1313 0%, #e6a409 100%);
+  text-align: center;
+}
+body .index_main .projet .projet .container__livrable .link h3:hover {
+  animation: scale 200ms 0ms linear both;
+}
+body footer {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+}
+body footer .container {
+  height: 100%;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body footer .container .title {
+  font-family: Shrikhand;
+  padding: 15px;
+}
+body footer .container h3 {
+  font-family: "Dancing Script";
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

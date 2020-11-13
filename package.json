@@ -1,0 +1,19 @@
+{
+  "name": "mon-parcours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./sass/main.scss:./style/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corentin-DAUCHER/Mon-parcours.git"
+  },
+  "author": "Corentin DAUCHER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corentin-DAUCHER/Mon-parcours/issues"
+  },
+  "homepage": "https://github.com/Corentin-DAUCHER/Mon-parcours#readme"
+}

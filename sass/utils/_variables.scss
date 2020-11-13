@@ -1,0 +1,11 @@
+$header_bg_color: white;
+
+$bg_color: grey;
+$light_bg_color: lighten(grey, 40);
+$button_bg_color: linear-gradient(360deg, rgba(221,19,19,1) 0%, rgba(230,164,9,1) 100%);
+$go_up_bg_color: linear-gradient(360deg, rgba(221,19,19,1) 0%, rgba(230,164,9,1) 100%);
+$menu_bg_color: linear-gradient(360deg, rgba(221,19,19,1) 0%, rgba(230,164,9,1) 100%);
+$dark_bg_color: #323232;
+$lighten_bg_color: linear-gradient(360deg, lighten(rgba(221,19,19,1), 30%) 0%, lighten(rgba(230,164,9,1), 30%) 100%);
+
+$max-width: 1300px;
