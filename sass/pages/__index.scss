@@ -12,8 +12,11 @@
         justify-content: center;
 
         .projet{
-            width: 60%;
-            margin: 0px auto;
+            width: 100%;
+            padding: 0px 15px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
             .container{
                 width: 100%;
@@ -37,6 +40,10 @@
 
                 &__livrable{
                     width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
 
                     .title{
                         width: 100%;
@@ -50,6 +57,7 @@
                     .preview{
                         height: 400px;
                         width: 100%;
+                        max-width: 800px;
                         border-radius: 30px;
                         box-shadow: 0px 0px 9px 0px #000000;
 
@@ -57,10 +65,7 @@
                             height: 100%;
                             width: 100%;
                             border-radius: 30px;
-
-                            @media all and (max-width: 1200px){
-                                object-fit: cover;
-                            }
+                            object-fit: contain;
                         }
                     }
 
@@ -77,6 +82,7 @@
 
                             &:hover{
                                 animation: scale 200ms 0ms linear both;
+                                background: $lighten_bg_color;
                             }
                         }
                     }
